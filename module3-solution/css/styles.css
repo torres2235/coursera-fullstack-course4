@@ -1,0 +1,60 @@
+body{
+    font-size: 16px;
+    color: black;
+    background-color: #647496;
+    font-family: 'Raleway', sans-serif;
+}
+/**HEADER**/
+#header-nav{
+    background-color: #aa8a6b;
+    border-radius: 0; /*removes rounded edges in the navbar*/
+    border: 0; /*removes boarder around navbar so it blends nicely with main content*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand { /*Food,LLC*/
+    /*color: #2c353a;*/
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+
+#nav-list{
+    margin-top:60px; /*moves collapsable navigation bar down*/
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+/**MAIN CONTENT**/
+
+.tile{
+    background-color: #2e3544;
+    color: #e8e8e8;
+}
+
+.tile h3{
+    text-align: center;
+    font-size: 200%;
+    color: #edbabc;
+}
+
+/**MEDIA QUERIES**/
+
+@media(min-width:992px){ /**Desktop**/
+
+}
+
+@media(min-width:768px, max-width:991px){ /**Tablet**/
+    
+}
+
+@media(max-width:990px){ /**phone**/
+
+}
